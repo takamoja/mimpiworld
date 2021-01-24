@@ -1,0 +1,19 @@
+{
+  "name": "mimpiworld",
+  "version": "1.0.0",
+  "description": "a website mimpiworld.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takamoja/mimpiworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takamoja/mimpiworld/issues"
+  },
+  "homepage": "https://github.com/takamoja/mimpiworld#readme"
+}
