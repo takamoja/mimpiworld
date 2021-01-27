@@ -4,7 +4,10 @@ const passport = require('passport')
 const passportHttp = require('passport-http')
 const path = require('path')
 const PORT = process.env.PORT || 5000
-require('dotenv').config()
+
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
 
 passport.use(new passportHttp.BasicStrategy(
     function (username, password, done) {
