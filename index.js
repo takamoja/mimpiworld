@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000
 
 passport.use(new passportHttp.BasicStrategy(
     function(username, password, done) {
-        if (username === 'mimpi' && password === 'ipmim') {
+        if (username === process.env.USERNAME && password === process.env.PASSWORD) {
             return done(null, true)
         } else {
             return done(null, false)
