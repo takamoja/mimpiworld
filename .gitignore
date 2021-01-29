@@ -108,4 +108,5 @@ jspm_packages
 
 # Product data directory
 product/
+.env
 
