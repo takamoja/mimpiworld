@@ -3,7 +3,7 @@ const app = express()
 const passport = require('passport')
 const passportHttp = require('passport-http')
 const path = require('path')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5001
 
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
