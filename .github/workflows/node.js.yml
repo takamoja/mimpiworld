@@ -18,7 +18,7 @@ jobs:
       id: node_version
       run: echo "NODE_VERSION=$(cat .node-version)" >> $GITHUB_ENV
     - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v6
+      uses: actions/setup-node@v7
       with:
         node-version: ${{ env.NODE_VERSION }}
     - run: npm ci
